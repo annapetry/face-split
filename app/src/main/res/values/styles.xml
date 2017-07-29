@@ -1,11 +1,43 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="BaseAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowBackground">@color/light_grey_bg</item>
+    </style>
+
+    <style name="Theme.Splash" parent="BaseAppTheme" >
+        <item name="android:windowBackground">@color/splash_background</item>
+    </style>
+
+    <style name="Theme.FaceSplitApp" parent="BaseAppTheme" />
+
+    <style name="transparentStatusBarCompat" />
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="WaitDialogAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="Theme.FaceSplitApp.Fragment">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/light_grey_bg</item>
+    </style>
+
+    <style name="Theme.FaceSplitApp.Fragment.Light" parent="Theme.FaceSplitApp.Fragment">
+        <item name="android:background">@color/white</item>
     </style>
 
 </resources>
