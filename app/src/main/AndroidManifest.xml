@@ -13,7 +13,7 @@
         android:theme="@style/BaseAppTheme">
 
         <activity
-            android:name="com.petry.anna.facesplit.ui.activities.SplashActivity"
+            android:name="com.annapetry.activities.SplashActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Splash"
@@ -31,7 +31,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.petry.anna.facesplit.ui.activities.MainActivity"
+            android:name="com.annapetry.activities.MainActivity"
             android:label="@string/app_name"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"

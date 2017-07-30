@@ -1,4 +1,4 @@
-package com.petry.anna.facesplit.ui.fragments;
+package com.annapetry.fragments;
 
 import android.content.Context;
 import android.hardware.camera2.CameraManager;

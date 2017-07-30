@@ -1,11 +1,11 @@
-package com.petry.anna.facesplit.ui.fragments;
+package com.annapetry.fragments;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.petry.anna.facesplit.ui.activities.MainActivity;
+import com.annapetry.activities.MainActivity;
 import com.trello.rxlifecycle.components.support.RxFragment;
 
 import butterknife.ButterKnife;

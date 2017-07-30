@@ -1,4 +1,4 @@
-package com.petry.anna.facesplit.ui.activities;
+package com.annapetry.activities;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentTransaction;
@@ -6,7 +6,7 @@ import android.view.ViewGroup;
 import android.view.Window;
 
 import com.petry.anna.facesplit.R;
-import com.petry.anna.facesplit.ui.fragments.CaptureFragment;
+import com.annapetry.fragments.CaptureFragment;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

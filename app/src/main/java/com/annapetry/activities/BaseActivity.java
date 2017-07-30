@@ -1,4 +1,4 @@
-package com.petry.anna.facesplit.ui.activities;
+package com.annapetry.activities;
 
 import android.support.v7.app.AppCompatActivity;
 
